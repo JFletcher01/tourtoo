@@ -1,0 +1,62 @@
+html{
+    overflow: hidden;
+}
+
+aside{
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.list-group-item{
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    color: whitesmoke;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.list-group-item:hover{
+    transition: all 0.5s ease;
+    background-color: whitesmoke !important;
+    border-color: transparent;
+    color: #222;
+}
+
+.list-group-item.active{
+    transition: all 0s ease;
+    background-color: whitesmoke !important;
+    color: #222;
+    border-color: transparent;
+}
+
+
+.nav-panel{
+    background-color: #999;
+    min-height: 5vh;
+}
+
+.nav-panel>div,.user-action>span{
+    cursor: pointer;
+}
+
+.nav-panel>div:hover{
+    transition: all 0.5s ease;
+    color: orange;
+}
+
+.table-responsive{
+    overflow: hidden;
+}
+
+.table-content{
+    background-color: #ccc;
+}
+
+.no-opacity{
+    opacity: 1 !important;
+}

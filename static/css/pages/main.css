@@ -1,0 +1,118 @@
+.main-menu{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.show{
+    display: flex !important;
+}
+.main-menu-part{
+    color: white !important;
+    cursor: pointer;
+}
+
+.userView{
+    left: -440px !important;
+    width: 500px;
+}
+
+.event-squares{
+    padding: 0;
+    padding-left: 30px;
+}
+.user-display{
+    left: -100px;
+}
+
+.layout-landscape{
+    background-image: url('../../img/group-people-main.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    height: 775px;
+}
+
+footer{
+    color: whitesmoke;
+    padding: 1%;
+}
+
+.main-search{
+    opacity: 0.7;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.layout-landscape>div{
+    color: whitesmoke;
+}
+
+.admin-link,.admin-link:hover{
+    text-decoration: none;
+    color: initial;
+}
+
+.user-section{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.user-section:hover{
+    background-color: #00a3e9;
+    color: whitesmoke;
+}
+
+.logout:hover{
+    background-color: #dc3545;
+    color: whitesmoke;
+}
+
+.main-search{
+    outline: 0;
+}
+
+.activities-view{
+    background-color: #ccc;
+}
+
+.event-view{
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.event-title{
+    transition: all 500ms ease-out;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.event-hover{
+    border-radius: 85% 15% 100% 0% / 38% 100% 0% 62%;   
+}
+
+.event-title>h5{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 0;
+    width: 67%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.event-title>i{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    font-size: xx-large;
+    margin-right: 1.5rem;
+}

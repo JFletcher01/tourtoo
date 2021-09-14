@@ -1,0 +1,140 @@
+.main-menu{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.main-menu-part{
+    color: white !important;
+    cursor: pointer;
+}
+
+
+.userView,.search-display{
+    left: -150px !important;
+    width: 500px;
+}
+
+.userView{
+    left: -440px !important;
+    width: 500px;
+}
+
+.user-display{
+    left: -100px;
+}
+.dropdown-toggle::after{
+    content: initial !important;
+}
+
+.layout-landscape{
+    background-image: url('../../img/group-people-main.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    height: 775px;
+}
+
+.main-search{
+    opacity: 0.7;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.layout-landscape>div{
+    color: whitesmoke;
+}
+
+.admin-link,.admin-link:hover{
+    text-decoration: none;
+    color: initial;
+}
+.show{
+    display: flex !important;
+}
+
+.user-section{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.user-section:hover{
+    background-color: #00a3e9;
+    color: whitesmoke;
+}
+
+.logout:hover{
+    background-color: #dc3545;
+    color: whitesmoke;
+}
+
+.fast-search-title{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.event-parallax{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    height: 575px;
+}
+
+.user-pattern{
+    height: 300px !important;
+}
+
+.event-title{
+    color: #333;
+    font-weight: bolder;
+}
+
+.event-header{
+    bottom: 0px;
+}
+
+.event-view{
+    background-color: #ddd;
+}
+
+.monitor-area,.user-area{
+    padding-left: 3px !important;
+}
+
+.monitor-area,.price-showcase,.user-area{
+    background-color: whitesmoke;
+    height: 75px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+}
+
+.price-showcase>*{
+    height: 70px;
+}
+
+.price-showcase>*>h3{
+    color: #1cb34b;
+}
+
+.monitor-avatar,.user-avatar{
+    background-color: #00a3e9;
+    color: whitesmoke;
+    width: fit-content;
+    height: 70px;
+}
+
+.general-showcase{
+    background-color: whitesmoke;
+}
+
+
+
+.general-showcase p{
+    font-size: larger;
+}

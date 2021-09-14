@@ -1,0 +1,26 @@
+.event-title>input, .event-price>input{
+    outline: 0;
+    background: none;
+    font-size: inherit;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.image-placeholder{
+    opacity: 0;
+    transition: 0.5s all ease;
+}
+
+.image-placeholder.active{
+    opacity: 1;
+}
+
+.event-header{
+    z-index: 1;
+}
+
+.no-bottom{
+    bottom: 0px;
+}

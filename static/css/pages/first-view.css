@@ -1,0 +1,19 @@
+.first-left-section{
+    background-image: url('../../img/intro-landscape.png');
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo-image{
+    background-color: transparent;
+}
+
+.right-left-section{
+    opacity: 0.9;
+}
+
+.no-opacity{
+    opacity: 1 !important;
+}
